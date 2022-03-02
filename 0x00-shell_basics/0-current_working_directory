@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $ realpath 0-current_working_directory
+echo "$(cd"$(dirname "$1")" AND pwd -P)/$(basename "$1")"
